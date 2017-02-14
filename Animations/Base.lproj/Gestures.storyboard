@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rlA-Jb-tTF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="tfk-56-4di">
+            <objects>
+                <tableViewController id="eS7-uu-R5Z" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TBJ-Js-Scv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="kN2-tJ-Gin">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="yEY-BT-3bW" style="IBUITableViewCellStyleDefault" id="Ehb-pk-PL4">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ehb-pk-PL4" id="wm2-kw-vg5">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yEY-BT-3bW">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OaU-4e-AYP" kind="show" id="fWw-Sj-zRA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cPN-xt-qY2" style="IBUITableViewCellStyleDefault" id="kZy-Kk-47G">
+                                        <rect key="frame" x="0.0" y="108" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kZy-Kk-47G" id="Vhy-HV-iQx">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Rotate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cPN-xt-qY2">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5sd-dI-BQL" kind="show" id="eUk-t0-3je"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="RC5-Wr-blH" style="IBUITableViewCellStyleDefault" id="dXl-QV-AZC">
+                                        <rect key="frame" x="0.0" y="152" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dXl-QV-AZC" id="Rvy-FV-xZE">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Pinch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RC5-Wr-blH">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LaR-gC-YH2" kind="show" id="ZkD-jh-vqr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="TJB-Sz-A9a" style="IBUITableViewCellStyleDefault" id="aln-Vx-Q2w">
+                                        <rect key="frame" x="0.0" y="196" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aln-Vx-Q2w" id="lgS-hE-2Wi">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Swipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TJB-Sz-A9a">
+                                                    <frame key="frameInset" minX="15" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QpE-r3-n6b" kind="show" id="IEx-6q-o47"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="eS7-uu-R5Z" id="OFQ-bs-Rx3"/>
+                            <outlet property="delegate" destination="eS7-uu-R5Z" id="9Hf-J6-B8q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="e3f-6A-wrx"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S77-bu-E8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="188"/>
+        </scene>
+        <!--Tap Gesture View Controller-->
+        <scene sceneID="lSH-om-0qh">
+            <objects>
+                <viewController id="OaU-4e-AYP" customClass="TapGestureViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CLI-it-fkG"/>
+                        <viewControllerLayoutGuide type="bottom" id="sbd-Ib-w62"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="asC-9H-OiD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6L-Wp-agP" userLabel="Red Box">
+                                <frame key="frameInset" minX="225" minY="225" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.20784313730000001" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="nJu-YS-2f8"/>
+                                    <constraint firstAttribute="width" constant="150" id="w5q-fc-l4Y"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lsX-tp-D0n" appends="YES" id="2La-hT-MUm"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="X6L-Wp-agP" firstAttribute="centerX" secondItem="asC-9H-OiD" secondAttribute="centerX" id="8ZC-zg-1Ju"/>
+                            <constraint firstItem="X6L-Wp-agP" firstAttribute="centerY" secondItem="asC-9H-OiD" secondAttribute="centerY" id="SaG-c8-8ny"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="4n8-mS-NbH" appends="YES" id="zXp-Sm-9iz"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lM3-Ue-ZWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4n8-mS-NbH">
+                    <connections>
+                        <action selector="tappedView:" destination="OaU-4e-AYP" id="T3A-Dj-w7k"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="lsX-tp-D0n" userLabel="Red box tap recognizer">
+                    <connections>
+                        <action selector="tappedRedBoxView:" destination="OaU-4e-AYP" id="Qwp-Hc-FIt"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1844" y="-129"/>
+        </scene>
+        <!--Pinch Gesture View Controller-->
+        <scene sceneID="0C3-3w-19N">
+            <objects>
+                <viewController id="LaR-gC-YH2" customClass="PinchGestureViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Cu-UG-S3l"/>
+                        <viewControllerLayoutGuide type="bottom" id="acH-DI-NCa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68l-0o-sAc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fK-Iw-3mN">
+                                <frame key="frameInset" minX="225" minY="225" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.20784313730000001" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="fOH-Tc-h1e"/>
+                                    <constraint firstAttribute="width" constant="150" id="kgB-QS-UBG"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7eV-wW-x1o" appends="YES" id="GKD-3T-oXw"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6fK-Iw-3mN" firstAttribute="centerX" secondItem="68l-0o-sAc" secondAttribute="centerX" id="U5a-1V-NkP"/>
+                            <constraint firstItem="6fK-Iw-3mN" firstAttribute="centerY" secondItem="68l-0o-sAc" secondAttribute="centerY" id="fAt-RT-c3d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="redBox" destination="6fK-Iw-3mN" id="GMW-Wh-62C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dkq-ct-OKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="7eV-wW-x1o">
+                    <connections>
+                        <action selector="pinchedMyView:" destination="LaR-gC-YH2" id="pR5-Ga-jWB"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1844" y="554"/>
+        </scene>
+        <!--Rotate Gesture View Controller-->
+        <scene sceneID="uyV-gX-bDL">
+            <objects>
+                <viewController id="5sd-dI-BQL" customClass="RotateGestureViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Duq-6c-wXI"/>
+                        <viewControllerLayoutGuide type="bottom" id="CEU-kg-Odf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ho9-Ob-gV4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F76-u6-mJs">
+                                <frame key="frameInset" minX="225" minY="225" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.20784313730000001" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="GB5-bw-5ic"/>
+                                    <constraint firstAttribute="width" constant="150" id="aac-VT-jB6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vaZ-je-7G3">
+                                <frame key="frameInset" minX="250" minY="77" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1j0-gc-mhT"/>
+                                    <constraint firstAttribute="height" constant="100" id="vpq-BL-CzB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vaZ-je-7G3" firstAttribute="top" secondItem="Duq-6c-wXI" secondAttribute="bottom" constant="13" id="7L5-fQ-OcY"/>
+                            <constraint firstItem="vaZ-je-7G3" firstAttribute="centerX" secondItem="ho9-Ob-gV4" secondAttribute="centerX" id="UTi-Ap-t2H"/>
+                            <constraint firstItem="F76-u6-mJs" firstAttribute="centerY" secondItem="ho9-Ob-gV4" secondAttribute="centerY" id="ZvM-om-QT8"/>
+                            <constraint firstItem="F76-u6-mJs" firstAttribute="centerX" secondItem="ho9-Ob-gV4" secondAttribute="centerX" id="fES-BI-8vm"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Ofs-ne-Qwt" appends="YES" id="PTv-kb-R6t"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="blueBox" destination="vaZ-je-7G3" id="HKE-5Q-D1N"/>
+                        <outlet property="redBox" destination="F76-u6-mJs" id="eBT-u0-RC3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CwV-Ji-uF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="Ofs-ne-Qwt">
+                    <connections>
+                        <action selector="rotatedView:" destination="5sd-dI-BQL" id="lqf-1V-HH0"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1642" y="1387"/>
+        </scene>
+        <!--Swipe Gesture View Controller-->
+        <scene sceneID="lrn-ED-kmB">
+            <objects>
+                <viewController id="QpE-r3-n6b" customClass="SwipeGestureViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6m1-X2-4He"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdh-im-HOE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BBg-DI-9yB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uh9-nY-yO7" userLabel="greenBox">
+                                <frame key="frameInset" minX="166" minY="173" width="268" height="254"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.55294117649999996" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="eY5-k7-WXx"/>
+                                    <constraint firstAttribute="height" constant="254" id="hUu-92-zyJ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="b0x-yE-Fk3" appends="YES" id="c1s-Wl-6N0"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Uh9-nY-yO7" firstAttribute="centerY" secondItem="BBg-DI-9yB" secondAttribute="centerY" id="JgT-Dy-LeF"/>
+                            <constraint firstItem="Uh9-nY-yO7" firstAttribute="centerX" secondItem="BBg-DI-9yB" secondAttribute="centerX" id="Ul6-k0-fOw"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sVN-f7-4sR" appends="YES" id="UPA-Wq-U9d"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FVi-Rq-bvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="sVN-f7-4sR" userLabel="Left Swipe Gesture Recognizer">
+                    <connections>
+                        <action selector="leftSwipeRecognized:" destination="QpE-r3-n6b" id="yDz-PG-5t3"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="b0x-yE-Fk3" userLabel="Right Swipe Gesture Recognizer">
+                    <connections>
+                        <action selector="rightSwipeRecognized:" destination="QpE-r3-n6b" id="4tH-dM-NE4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="822" y="994"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ffi-v4-mZA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rlA-Jb-tTF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w1W-h5-X4d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eS7-uu-R5Z" kind="relationship" relationship="rootViewController" id="DBA-PC-n0C"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAl-0U-ywx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="188"/>
+        </scene>
+    </scenes>
+</document>
