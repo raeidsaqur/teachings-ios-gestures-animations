@@ -27,6 +27,10 @@ class TapGestureViewController: UIViewController, UIGestureRecognizerDelegate{
     }
     
     
+    @IBAction func tappedPurpleView(_ sender: Any) {
+        
+        print("\(#function): You have tapped on the purple box")
+    }
     
     @IBAction func tappedView(_ sender: UITapGestureRecognizer) {
         

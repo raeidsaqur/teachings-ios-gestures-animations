@@ -18,6 +18,7 @@ class RotateGestureViewController: UIViewController {
         print("\(#function): Rotating view")
         blueBox.backgroundColor = UIColor.green
         blueBox.transform = CGAffineTransform(rotationAngle: sender.rotation)
+        
         redBox.backgroundColor = UIColor.yellow
         redBox.transform = CGAffineTransform(rotationAngle: sender.rotation)
         

@@ -61,16 +61,18 @@ class SignupViewController: UIViewController {
         
         //keypath is the property path that's being animated
         // in this case, we are animating the view frame's x position
-        shake.keyPath = "position.x"
         
+        shake.keyPath = "position.x"
         shake.duration = 1
         
         shake.keyTimes = [0, 0.25, 0.5, 0.75, 1]
+        //keyPath values
         shake.values =   [0, -10, 10, -10, 0]
 
         shake.isAdditive = true
-        shake.repeatCount = 1
+        shake.repeatCount = 2
         
+        //Add the animation to CALayer of the object
         passwordTextfield.layer.add(shake, forKey: "shake")
     
     }
@@ -88,9 +90,9 @@ class SignupViewController: UIViewController {
         var color = self.blueBox.backgroundColor
         
         color = color == UIColor.green ? UIColor.blue : UIColor.green
-        
+        //Step 1
         UIView.animate(withDuration: 1.0, animations: {
-            //Speficy the end state of the view
+            //Step 2: Speficy the end state of the view
             self.blueBox.backgroundColor = color
             self.blueBox.transform = CGAffineTransform(scaleX: 2, y: 2)
         }) 
@@ -108,13 +110,13 @@ class SignupViewController: UIViewController {
         
         color = color == UIColor.green ? UIColor.blue : UIColor.green
         
+        //Step 1: open an animate block
         UIView.animate(withDuration: 1.0, delay: 0, options:[.repeat, .autoreverse], animations: { () -> Void in
             
-            //End state
+            //Step 2: Define end state
             self.blueBox.backgroundColor = color
             let transform = CGAffineTransform(scaleX: 3 , y: 3)
             self.blueBox.transform = transform.rotated(by: 0.50)
-            
             self.blueBox.alpha = 0.30
             
             }) { (success) -> Void in
