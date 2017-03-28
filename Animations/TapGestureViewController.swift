@@ -38,12 +38,19 @@ class TapGestureViewController: UIViewController, UIGestureRecognizerDelegate{
         
     }
     
+    
+    
     @IBAction func tappedRedBoxView(_ sender: UITapGestureRecognizer) {
         
         print("\(#function): You have tapped on the red box")
         
     }
     
+    @IBAction func tappedBlueBoxView(_ sender: Any) {
+        
+        print("\(#function): You have tapped on the blue  box")
+        
+    }
     
     
     

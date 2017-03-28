@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rlA-Jb-tTF">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rlA-Jb-tTF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,11 +25,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ehb-pk-PL4" id="wm2-kw-vg5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yEY-BT-3bW">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,11 +45,11 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kZy-Kk-47G" id="Vhy-HV-iQx">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Rotate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cPN-xt-qY2">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -65,11 +65,11 @@
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dXl-QV-AZC" id="Rvy-FV-xZE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Pinch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RC5-Wr-blH">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -85,11 +85,11 @@
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aln-Vx-Q2w" id="lgS-hE-2Wi">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Swipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TJB-Sz-A9a">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,8 +127,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6L-Wp-agP" userLabel="Red Box">
-                                <rect key="frame" x="225" y="225" width="150" height="150"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6L-Wp-agP" userLabel="Red Box">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.20784313730000001" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -151,13 +151,27 @@
                                     <outletCollection property="gestureRecognizers" destination="79o-t4-Dc8" appends="YES" id="SfB-ea-XmE"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wWi-mI-Zrx" userLabel="Blue Box">
+                                <rect key="frame" x="67.5" y="484" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.45365708213921463" green="0.66651133223436609" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="T43-RG-Uyg"/>
+                                    <constraint firstAttribute="height" constant="128" id="f4U-AN-fZp"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="9vB-cI-AeK" appends="YES" id="til-My-Fxh"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="wWi-mI-Zrx" firstAttribute="centerX" secondItem="asC-9H-OiD" secondAttribute="centerX" id="35D-y3-DJV"/>
                             <constraint firstItem="X6L-Wp-agP" firstAttribute="centerX" secondItem="asC-9H-OiD" secondAttribute="centerX" id="8ZC-zg-1Ju"/>
                             <constraint firstItem="23h-kW-8rT" firstAttribute="top" secondItem="CLI-it-fkG" secondAttribute="bottom" constant="16" id="C8W-Pl-3Co"/>
                             <constraint firstItem="X6L-Wp-agP" firstAttribute="centerY" secondItem="asC-9H-OiD" secondAttribute="centerY" id="SaG-c8-8ny"/>
+                            <constraint firstItem="sbd-Ib-w62" firstAttribute="top" secondItem="wWi-mI-Zrx" secondAttribute="bottom" constant="55" id="gED-Co-ZEf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="23h-kW-8rT" secondAttribute="trailing" constant="52" id="vyd-C9-4H2"/>
                             <constraint firstItem="23h-kW-8rT" firstAttribute="leading" secondItem="asC-9H-OiD" secondAttribute="leadingMargin" constant="51" id="xXR-At-QM1"/>
                         </constraints>
@@ -167,7 +181,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lM3-Ue-ZWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="4n8-mS-NbH">
+                <tapGestureRecognizer id="4n8-mS-NbH" userLabel="Parent View Tap Gesture Recognizer">
                     <connections>
                         <action selector="tappedView:" destination="OaU-4e-AYP" id="T3A-Dj-w7k"/>
                     </connections>
@@ -180,6 +194,11 @@
                 <tapGestureRecognizer id="79o-t4-Dc8" userLabel="Purple box Tap Gesture Recognizer">
                     <connections>
                         <action selector="tappedPurpleView:" destination="OaU-4e-AYP" id="Wom-JX-Awc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9vB-cI-AeK" userLabel="Blue box tap Gesture Recognizer">
+                    <connections>
+                        <action selector="tappedBlueBoxView:" destination="OaU-4e-AYP" id="6qg-BZ-DUD"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

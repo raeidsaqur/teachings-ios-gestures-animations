@@ -84,7 +84,7 @@ class SignupViewController: UIViewController {
      - parameter sender: <#sender description#>
      */
     
-    @IBAction func animateBlueBoxPressed2(_ sender: AnyObject) {
+    @IBAction func animateBlueBoxPressed(_ sender: AnyObject) {
         
         print("Animating Blue Box")
         var color = self.blueBox.backgroundColor
@@ -99,7 +99,7 @@ class SignupViewController: UIViewController {
         
     }
     
-    @IBAction func animateBlueBoxPressed(_ sender: AnyObject) {
+    @IBAction func animateBlueBoxPressed2(_ sender: AnyObject) {
         
         print("Animating Blue Box")
         //let origColor = self.blueBox.backgroundColor
